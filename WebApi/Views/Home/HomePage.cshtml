@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WebApi.Models.Book>
+
+@{
+    ViewBag.Title = "HomePage";
+}
+
+<h2>Books List</h2>
+
+
+<h3>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</h3>
+
+<p>
+    <div class="container">
+        <a href="@Url.Action("HomePage", "Home")" class="btn btn-primary" role="button">Home Page</a> 
+        <a href="@Url.Action("Index", "Home")" class="btn btn-success" role="button">Books List</a> 
+    </div>   
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</p>
+
+
+
